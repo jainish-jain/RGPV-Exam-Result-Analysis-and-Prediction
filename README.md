@@ -48,7 +48,7 @@ student.
 ## ER Diagram
 <p>
 <h4>  E-R diagram for Result Analysis </h4>
-<img src="Images/image.0Q3PN0.png" width="350">
+<img src="Images/image.2H6ON0.png">
 <h4> E-R diagram for Result Prediction</h4>
 <img src="Images/image.UTYBN0.png">
 
@@ -56,11 +56,19 @@ student.
 
 ## Use Case Diagram
 <p><h4>Use case diagram for Result Analysis</h4>
-![image J228M0](https://user-images.githubusercontent.com/62622479/86530732-d856c500-bed8-11ea-86de-66ffcdd92fad.png)
+
+<img src="Images/image.J228M0.png">
 <h4>Use case diagram for Result Prediction</h4>
-![image PJ1KN0](https://user-images.githubusercontent.com/62622479/86530742-04724600-bed9-11ea-9fe2-40bb9c3cbdfd.png)
+<img src="Images/image.PJ1KN0.png">
 </p>
 
 
+## Activiy Diagram
+<p> <h4>Activity diagram for Result Analysis</h4>
+<img src="Images/image.JEZEN0.png">
+<h4>ctivity diagram for Result Prediction</h4>
+<img src="Images/image.0Q3PN0.png">
+</p>
 
+  
 
