@@ -66,7 +66,7 @@ student.
 ## Activiy Diagram
 <p> <h4>Activity diagram for Result Analysis</h4>
 <img src="Images/image.JEZEN0.png">
-<h4>ctivity diagram for Result Prediction</h4>
+<h4>Activity diagram for Result Prediction</h4>
 <img src="Images/image.0Q3PN0.png">
 </p>
 
