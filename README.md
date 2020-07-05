@@ -14,7 +14,7 @@ of figure as graph which concludes average score of batch, current batch, predic
 score for the remaining semesters.
 
 ## Overview
-
+<p>
 RGPV EXAM RESULT ANALYSIS report generator is a GUI application designed and
 engineered for colleges that need to manage results across multiple branches students that need
 to track, manage and report results. This application is programmed on Python, as an interpreted,
@@ -23,9 +23,7 @@ help of tkinter, the standard GUI library for Python. Python when combined with 
 provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-
 oriented interface to the Tk GUI toolkit. The project includes two module first on the Result
 Analysis and second on the Result Prediction.
-
 <br>
-
 Result Analysis the module is used to fetch the data from web using web scraping with python.
 As this project is design specifically for RGPV university site but in future it can be modified for
 other result site also. Basically, the project is using web scraping technique on python which
@@ -34,9 +32,7 @@ student and using the data to generate result analysis in the form tables and fi
 The analysis shows the result on the data for subjects of an individual batch. The data can further
 be used to do analysis on the student subject about the weakness and strengths to improve their
 performance and explore more for knowledge.
-
 <br>
-
 Result Prediction the module is used to predict the SGPA for the next semester the prediction
 uses machine learning technique which is based on supervised machine learning. In machine
 learning, regression algorithms attempt to estimate the mapping function from the input variables
@@ -46,3 +42,11 @@ whole batch as an average of the SGPA’s of student in their batch as in the fo
 graph as Current score, Prediction score and Batch Average score. The user can input custom
 SGPA also can get prediction on the basis of input data of student score used for particular
 student.
+</p>
+<br>
+
+## ER Diagram
+<br>
+## E-R diagram for Result Analysis
+![image 2H6ON0](https://user-images.githubusercontent.com/62622479/86528526-89a02f80-bec6-11ea-9f8e-b207e6d30580.png)
+
