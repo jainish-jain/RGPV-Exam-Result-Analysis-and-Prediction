@@ -47,6 +47,11 @@ student.
 
 ## ER Diagram
 <br>
+<p>
 ## E-R diagram for Result Analysis
-![image 2H6ON0](https://user-images.githubusercontent.com/62622479/86528526-89a02f80-bec6-11ea-9f8e-b207e6d30580.png)
+<br>
+
+![image 2H6ON0](https://user-images.githubusercontent.com/62622479/86530128-ccb4cf80-bed3-11ea-8463-0246a6552aa4.png)
+</p>
+
 
