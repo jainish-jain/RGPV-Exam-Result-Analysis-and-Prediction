@@ -70,5 +70,24 @@ student.
 <img src="Images/image.0Q3PN0.png">
 </p>
 
+ # GUI
+ <p>
+  <h3>Result Analysis Module:</h3>
+  <img src="Images/GUI/image.Y9KNN0.png">
+<img src="Images/GUI/image.9GDQN0.png">
+<img src="Images/GUI/image.LZPIN0.png">
+
+  </p>
+  <p>
+  <h3>Result Prediction Module:</h3>
+  <img src="Images/GUI/image.V4P9M0.png">
+<img src="Images/GUI/image.WV8MN0.png">
+
+  </p>
+  <p><h3>Expected Output Generated Sheet:</h3>
+  <img src="Images/GUI/image.RB2DN0.png">
+<img src="Images/GUI/image.RERKN0.png">
+  </p>
   
+ 
 
