@@ -48,9 +48,10 @@ student.
 ## ER Diagram
 <p>
 <h4>  E-R diagram for Result Analysis </h4>
-<img src="images/image.0Q3PN0.png">
+<img src="Images/image.0Q3PN0.png" width="350">
 <h4> E-R diagram for Result Prediction</h4>
-![image UTYBN0](https://user-images.githubusercontent.com/62622479/86530707-962d8380-bed8-11ea-9d05-67e37fd1aa1a.png)
+<img src="Images/image.UTYBN0.png">
+
 </p>
 
 ## Use Case Diagram
