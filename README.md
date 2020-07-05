@@ -46,20 +46,17 @@ student.
 <br>
 
 ## ER Diagram
-
+<p>
 <h4>  E-R diagram for Result Analysis </h4>
-<br>
 ![image 2H6ON0](https://user-images.githubusercontent.com/62622479/86530128-ccb4cf80-bed3-11ea-8463-0246a6552aa4.png)
-
 <h4> E-R diagram for Result Prediction</h4>
 ![image UTYBN0](https://user-images.githubusercontent.com/62622479/86530707-962d8380-bed8-11ea-9d05-67e37fd1aa1a.png)
-
+</p>
 
 ## Use Case Diagram
 <p><h4>Use case diagram for Result Analysis</h4>
 ![image J228M0](https://user-images.githubusercontent.com/62622479/86530732-d856c500-bed8-11ea-86de-66ffcdd92fad.png)
-</p>
-<p><h4>Use case diagram for Result Prediction</h4>
+<h4>Use case diagram for Result Prediction</h4>
 ![image PJ1KN0](https://user-images.githubusercontent.com/62622479/86530742-04724600-bed9-11ea-9fe2-40bb9c3cbdfd.png)
 </p>
 
