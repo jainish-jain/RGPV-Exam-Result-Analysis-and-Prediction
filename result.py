@@ -1,10 +1,7 @@
-#!/usr/bin/env python3
-#import cgi, cgitb 
-#import cgitb;cgitb.enable()
 from selenium import webdriver
 import time
 import csv, xlsxwriter 
-import cv2
+#import cv2
 import os ,stat, sys
 import requests
 import PIL.Image
@@ -20,6 +17,7 @@ from openpyxl import load_workbook, Workbook
 from openpyxl.worksheet.table import Table, TableStyleInfo
 from tkinter import *
 from tkinter import messagebox
+from webdriver_manager.chrome import ChromeDriverManager
 
 from tkinter.font import Font
 from shutil import copyfile
@@ -34,7 +32,7 @@ from sklearn.model_selection import train_test_split
 from matplotlib.animation import FuncAnimation
 from PIL import ImageTk, Image
 #pytesseract.pytesseract.tesseract_cmd = r'C:\Users\jaini\AppData\Local\Tesseract-OCR\tesseract.exe'
-
+from cv2 import cv2
 # Create instance of FieldStorage 
 #form = cgi.FieldStorage() 
 
@@ -65,6 +63,7 @@ print(df.head(10))
 
 
 def check_captcha():
+    time.sleep(1)
     driver.find_element_by_xpath('//*[@id="ctl00_ContentPlaceHolder1_TextBox1"]').clear()
     lst = list()
     lst.clear()
@@ -83,12 +82,12 @@ def check_captcha():
     text = pytesseract.image_to_string(img)
     text = text.replace(" ", "").upper()
     driver.find_element_by_xpath('//*[@id="ctl00_ContentPlaceHolder1_TextBox1"]').send_keys(text)
-    time.sleep(3)
+    time.sleep(5)
     try:
         driver.find_element_by_xpath('//*[@id="ctl00_ContentPlaceHolder1_btnviewresult"]').click()
         
     except:
-        time.sleep(1)
+        time.sleep(3)
     try:
         alert = driver.switch_to_alert
         driver.find_element_by_xpath('//*[@id="ctl00_ContentPlaceHolder1_btnviewresult"]').click()
@@ -134,13 +133,13 @@ def get_result():
     try:
         alert = driver.switch_to_alert
         alert.accept()
-        time.sleep(1)
+        time.sleep(3)
         driver.find_element_by_xpath('//*[@id="ctl00_ContentPlaceHolder1_btnReset"]').click()
         
         check_captcha()
     except:pass
     try:
-        time.sleep(3)
+        time.sleep(5)
         
         rno=driver.find_element_by_xpath('//*[@id="ctl00_ContentPlaceHolder1_lblRollNoGrading"]')
         name=driver.find_element_by_xpath('//*[@id="ctl00_ContentPlaceHolder1_lblNameGrading"]')    
@@ -188,7 +187,7 @@ def sel():
         #chrome_options.add_argument("window-size=1024x768")
         chrome_options.add_argument("--no-sandbox")
         
-        driver= webdriver.Chrome('chromedriver')#,options=chrome_options)
+        driver= webdriver.Chrome(executable_path='./chromedriver')#,options=chrome_options)
         driver.get('http://result.rgpv.ac.in/result/programselect.aspx?id=$%')
         driver.find_element_by_xpath('//*[@id="radlstProgram_'+str(var.get())+'"]').click()
         
@@ -561,7 +560,7 @@ if __name__=='__main__':
     global regressor_6,X_test_6,y_test_6
     global regressor_7,X_test_7,y_test_7
     global regressor_8,X_test_8,y_test_8
-    df_pre=pd.read_csv("/home/jainish/Desktop/RGPV Exam Result Analysis/export_df.csv")
+    df_pre=pd.read_csv("export_df.csv")
     
     #sem2
     df2=df_pre.copy()
