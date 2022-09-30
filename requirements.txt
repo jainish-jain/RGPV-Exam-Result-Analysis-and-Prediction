@@ -9,7 +9,7 @@ et-xmlfile==1.0.1
 idna==2.10
 isort==5.6.0
 jdcal==1.4.1
-joblib==0.17.0
+joblib==1.2.0
 kiwisolver==1.2.0
 lazy-object-proxy==1.4.3
 matplotlib==3.3.2
